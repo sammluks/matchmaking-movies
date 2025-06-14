@@ -1,4 +1,4 @@
-package org.matchmaking;
+package org.matchmaking.dto;
 
 import java.util.List;
 

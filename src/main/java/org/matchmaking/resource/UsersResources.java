@@ -1,10 +1,15 @@
-package org.matchmaking;
+package org.matchmaking.resource;
 
 import java.util.List;
 import java.util.Optional;
 
+import org.matchmaking.dto.AddMoviesDto;
+import org.matchmaking.dto.UserDto;
 import org.matchmaking.persistence.Movie;
 import org.matchmaking.persistence.Users;
+import org.matchmaking.service.MatchmakingService;
+import org.matchmaking.service.MovieService;
+import org.matchmaking.service.UserService;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 import jakarta.inject.Inject;

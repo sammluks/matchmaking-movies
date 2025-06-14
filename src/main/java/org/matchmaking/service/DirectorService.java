@@ -1,8 +1,9 @@
-package org.matchmaking;
+package org.matchmaking.service;
 
 import java.util.Comparator;
 import java.util.List;
 
+import org.matchmaking.dto.MovieDirectorDto;
 import org.matchmaking.persistence.MovieDirector;
 
 import jakarta.enterprise.context.ApplicationScoped;

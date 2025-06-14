@@ -1,5 +1,6 @@
-package org.matchmaking;
+package org.matchmaking.service;
 
+import org.matchmaking.dto.MovieDto;
 import org.matchmaking.persistence.Movie;
 
 import jakarta.enterprise.context.ApplicationScoped;

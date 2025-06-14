@@ -1,4 +1,7 @@
-package org.matchmaking;
+package org.matchmaking.resource;
+
+import org.matchmaking.dto.MovieDirectorDto;
+import org.matchmaking.service.DirectorService;
 
 import jakarta.inject.Inject;
 import jakarta.ws.rs.Consumes;

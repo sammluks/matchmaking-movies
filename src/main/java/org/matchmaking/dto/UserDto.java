@@ -1,4 +1,4 @@
-package org.matchmaking;
+package org.matchmaking.dto;
 
 import org.matchmaking.persistence.Users;
 

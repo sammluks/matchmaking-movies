@@ -1,9 +1,11 @@
-package org.matchmaking;
+package org.matchmaking.service;
 
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
+import org.matchmaking.dto.AddMoviesDto;
+import org.matchmaking.dto.UserDto;
 import org.matchmaking.persistence.Movie;
 import org.matchmaking.persistence.Users;
 
